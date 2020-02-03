@@ -8,54 +8,54 @@
         </met>
     </head>
 
-    <body>
+    <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand">Kate Jamboretz</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info border-bottom border-dark">
+            <a class="navbar-brand text-white">Kate Jamboretz</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-      </li>
-  </div>
-</nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <div>
             <div class="row">
-                <h1>Contact</h1>
+                <div class="col-md-12">
+                    <h1>Contact</h1>
+                </div>
             </div>
-            <div class="row">
-                <p> 
-                    Name
-                </p>
-            </div>
-            <div class="row">
-                <p> 
-                    Email
-                </p>
-            </div>
-            <div class="row">
-                <p> 
-                    Message
-                </p>
-            </div>
-            <div class="row">
-                <p> 
-                    Submit
-                </p>
-            </div>
-            
+
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email Address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
         </div>
 
-        <div class="row">
-            <footer>Copyright <em>&copy</em></footer>
+        <div class="row border-top border-dark">
+            <div class="col-md-12">
+                <footer class="text-center bg-info text-white">Copyright <em>&copy</em></footer>
+            </div>
         </div>
 
 

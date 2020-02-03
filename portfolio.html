@@ -8,69 +8,104 @@
         </met>
     </head>
 
-    <body>
+    <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand">Kate Jamboretz</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info border-bottom border-dark">
+            <a class="navbar-brand text-white">Kate Jamboretz</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-      </li>
-  </div>
-</nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <div>
             <div class="row">
-                <h1>Portfolio</h1>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="rounded img-fluid" src="images/markus-spiske--vPCLnC8MSs-unsplash.jpg" alt="hangman-pic">
-                    <h2> 
-                        Hangman
-                    </h2>
-                </div>
-                <div class="col-md-6">
-                    <img class="rounded img-fluid" src="images/erik-mclean-C3T8KTZxTFM-unsplash.jpg" alt="rpg-pic">
-                    <h2> 
-                        RPG Game
-                    </h2>
+                <div class="col-md-12">
+                    <h1>Portfolio</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="rounded img-fluid" src="images/sean-benesh-1D9aRAjKtGA-unsplash.jpg" alt="trivia-pic">
-                    <h2> 
-                        Trivia Game
-                    </h2>
-                </div>
-                <div class="col-md-6">
-                    <img class="rounded img-fluid" src="images/sara-kurfess-6lcT2kRPvnI-unsplash.jpg" alt="rutgers-pic">
-                    <h2> 
-                        Rutgers Info Widget
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="rounded img-fluid" src="images/marcus-wallis-R1qHDAEnCmc-unsplash.jpg" alt="rpc-pic">
-                    <h2> 
-                        Rock Paper Scissors
-                    </h2>
+            <div class="card-deck"></div>
+                <div class="row row-cols-1 row-cols-md-2">
+                
+                    <div class="col mb-4">
+                    
+                        <div class="card text-center text-white">
+                            <div class="embed-responsive embed-responsive-2by2">
+                                <img class="card-img" src="images/markus-spiske--vPCLnC8MSs-unsplash.jpg" alt="hangman-pic">
+                            </div>
+                                <div class="card-img-overlay card-body">
+                                <h2 class="bg-info"> 
+                                    Hangman
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-center text-white">
+                            <div class="embed-responsive embed-responsive-2by2">
+                                <img class="card-img" src="images/erik-mclean-C3T8KTZxTFM-unsplash.jpg" alt="rpg-pic">
+                            </div>
+                            <div class="card-img-overlay card-body">
+                                <h2 class="bg-info"> 
+                                    RPG Game
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-center text-white">
+                            <div class="embed-responsive embed-responsive-2by2">
+                                <img class="card-img" src="images/sean-benesh-1D9aRAjKtGA-unsplash.jpg" alt="trivia-pic">
+                            </div>
+                            <div class="card-img-overlay card-body">
+                                <h2 class="bg-info"> 
+                                    Trivia Game
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-center text-white">
+                            <div class="embed-responsive embed-responsive-2by2">
+                                <img class="card-img" src="images/sara-kurfess-6lcT2kRPvnI-unsplash.jpg" alt="rutgers-pic">
+                            </div>
+                            <div class="card-img-overlay card-body">
+                                <h2 class="bg-info"> 
+                                    Rutgers Info Widget
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-center text-white">
+                            <div class="embed-responsive embed-responsive-2by2">
+                                <img class="card-img" src="images/marcus-wallis-R1qHDAEnCmc-unsplash.jpg" alt="rpc-pic">
+                            </div>
+                            <div class="card-img-overlay card-body">
+                                <h2 class="bg-info"> 
+                                    Rock Paper Scissors
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <footer>Copyright <em>&copy</em></footer>
+        <div class="row border-top border-dark">
+            <div class="col-md-12">
+                <footer class="text-center bg-info text-white">Copyright <em>&copy</em></footer>
+            </div>
         </div>
 
 
