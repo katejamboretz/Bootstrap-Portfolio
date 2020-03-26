@@ -11,10 +11,10 @@ A portfolio website created to mimic images provided as part of a UC Berkeley Ex
 
 ## Authors
 
-- **Kate Jamboretz** - _Initial & Continuing work_ - [katejamboretz](https://github.com/katejamboretz)
+- **Kate Jamboretz** - _Initial work_ - [katejamboretz](https://github.com/katejamboretz)
 
 ## Acknowledgments
 
-- UC Berkeley Extension Full Stack Development 2020 Instructor & TAs
+- UC Berkeley Extension Full Stack Development 2020 Instructor, TAs and classmates
 - [PurpleBooth README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 - [Unsplash Photographers](https://unsplash.com) - names listed in image titles
